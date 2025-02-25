@@ -98,9 +98,6 @@ Here's a **detailed comparison of Apache Prefork, Apache MPM Event, and Nginx**,
 
 
 
-## ** TRANSITION PLAN FROM (APACHE MPM_EVENT + PHP_FPM) TO (NGINX + PHP-FPM)
-Switching from **Apache (MPM Event + PHP-FPM) to Nginx + PHP-FPM** requires careful planning, especially since your Laravel project relies on **.htaccess** for routing and rewrites. Here's a **step-by-step migration plan** to ensure a smooth transition.
-
 ---
 
 # **🔥 Migration Plan: Apache (MPM Event + PHP-FPM) → Nginx + PHP-FPM**
